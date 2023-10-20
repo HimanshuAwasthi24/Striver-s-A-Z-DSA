@@ -18,5 +18,15 @@ int main()
         cout << s << " is an adult\n";
     else
         cout << "He is not an adult\n";
+    switch (n)
+    {
+    case 1:
+        cout << "Monday" << endl;
+        break;
+
+    default:
+        cout << "Invalid value" << endl;
+        break;
+    }
     return 0;
 }
